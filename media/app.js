@@ -6,7 +6,7 @@ const web3 = window.Web3;
 const ethereum = window.ethereum;
 const pricePerNFT = 0.335;
 const totalNFTInput = 1;
-const totalETHSpan = 1;
+const totalETHSpan = 0.335;
 const show_dc = true
 /** input number spinner
  */
