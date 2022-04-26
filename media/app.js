@@ -51,7 +51,7 @@ let totalETHSpan =  document.querySelector('#totalETH');
 totalNFTInput.value = 1;
 totalETHSpan.innerText = totalNFTInput.value * pricePerNFT;
 
-plusBtn.addEventListener('click',()=>{
+/*plusBtn.addEventListener('click',()=>{
   totalNFTInput.value = Number(totalNFTInput.value)  + 1;
   totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(1);
 })
@@ -61,7 +61,7 @@ minusBtn.addEventListener('click',()=>{
     totalETHSpan.innerText = (totalNFTInput.value * pricePerNFT).toFixed(1);
   }
 
-})
+}) */
 //** end of input number spinner */
 
 checkoutBtn.style.display = "none"
