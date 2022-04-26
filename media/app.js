@@ -69,7 +69,7 @@ connectBtn.addEventListener('click', async () => {
       try {
         await ethereum.enable();
         initPayButton()
-        statusp.innerHTML = 'Wallet connected. Mint your NFTs now!'
+        statusp.innerHTML = 'Wallet connected'
         connectBtn.style.display = "none"
         checkoutBtn.style.display = "block"
       } catch (err) {
@@ -79,7 +79,7 @@ connectBtn.addEventListener('click', async () => {
     } else if (web3) {
       initPayButton()
     } else {
-      statusp.innerHTML = 'No Metamask (or other Web3 Provider) installed';
+      statusp.innerHTML = 'No Metamask (or other Web3 Provider) is installed';
     }
   })
 
