@@ -6,6 +6,7 @@ const web3 = window.Web3;
 const ethereum = window.ethereum;
 const pricePerNFT = 0.335;
 const totalNFTInput = 1;
+const totalETHSpan = 1;
 const show_dc = true
 /** input number spinner
  */
@@ -47,10 +48,10 @@ function sendMessage(cont) {
 let plusBtn = document.querySelector('button[class*="btn-plus"]');
 let minusBtn = document.querySelector('button[class*="btn-minus"]'); 
 let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
-*/
 let totalETHSpan =  document.querySelector('#totalETH');
+*/
 totalNFTInput.value = 1;
-totalETHSpan.innerText = totalNFTInput.value * pricePerNFT;
+//totalETHSpan.innerText = totalNFTInput.value * pricePerNFT;
 
 /*plusBtn.addEventListener('click',()=>{
   totalNFTInput.value = Number(totalNFTInput.value)  + 1;
