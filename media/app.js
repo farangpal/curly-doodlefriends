@@ -5,6 +5,7 @@ const checkoutBtn = document.querySelector('#checkoutBtn');
 const web3 = window.Web3;
 const ethereum = window.ethereum;
 const pricePerNFT = 0.335;
+const totalNFTInput = 1;
 const show_dc = true
 /** input number spinner
  */
