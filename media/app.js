@@ -62,7 +62,7 @@ minusBtn.addEventListener('click',()=>{
 })
 //** end of input number spinner */
 
-checkoutBtn.style.display = "none"
+checkoutBtn.style.display = "none !important"
 
 connectBtn.addEventListener('click', async () => {
     if (ethereum) {
@@ -70,8 +70,8 @@ connectBtn.addEventListener('click', async () => {
         await ethereum.enable();
         initPayButton()
         statusp.innerHTML = 'Wallet connected'
-        connectBtn.style.display = "none"
-        checkoutBtn.style.display = "block"
+        connectBtn.style.display = "none !important"
+        checkoutBtn.style.display = "block !important"
       } catch (err) {
         console.log(err)
         statusp.innerHTML = 'Wallet access denied'
