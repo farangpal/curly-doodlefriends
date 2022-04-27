@@ -137,7 +137,18 @@
 .btn-special[b-m2fc81gplc] {
     border-radius: 60px;
     background: linear-gradient(to bottom, #00ca00, #008900);
-    display: inline-block;
+    /* display: inline-block; */
+    position: relative;
+    padding: 2px;
+    border: 0 none;
+    outline: none;
+    box-shadow: 0 6px 40px -13px rgb(0 0 0 / 20%), 0 17px 17px -29px rgb(0 0 0 / 30%), 0 16px 10px -6px rgb(205 211 218), 0 53px 32px -20px rgb(205 211 218);
+}
+
+.btn-special[b-m2fc81gplvv] {
+    border-radius: 60px;
+    background: linear-gradient(to bottom, #00ca00, #008900);
+    /* display: inline-block; */
     position: relative;
     padding: 2px;
     border: 0 none;
